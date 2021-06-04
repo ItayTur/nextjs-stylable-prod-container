@@ -1,5 +1,5 @@
 import { validations } from '@itaytur/validation'
-import { getInputObj, getValidation } from '../../components/UI/Form/Form'
+import { getInputObj, getValidation } from '../components/UI/Form/Form'
 
 const inputs = {
     name: getInputObj({

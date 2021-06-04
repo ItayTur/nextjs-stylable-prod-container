@@ -1,5 +1,5 @@
 :import {
-    -st-from: "../../components/UI/Form/Form.st.css";
+    -st-from: "../components/UI/Form/Form.st.css";
     -st-default: Form;
 }
 
