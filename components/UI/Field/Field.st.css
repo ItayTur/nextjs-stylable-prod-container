@@ -1,0 +1,10 @@
+.root {
+    -st-states: isEmpty;
+}
+
+.Label {}
+
+.root:isEmpty .Value{
+    font-style: italic;
+    color: gray;
+}

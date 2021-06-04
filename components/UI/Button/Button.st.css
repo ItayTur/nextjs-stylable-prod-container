@@ -1,0 +1,14 @@
+.root {
+    -st-states: isDisabled;
+    border: none;
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    background: red;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.root:isDisabled {
+    background: #ccc;
+}

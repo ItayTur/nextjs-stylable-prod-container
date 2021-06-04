@@ -1,0 +1,44 @@
+.root {
+    -st-states: isValid, isBlured;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.Label {
+    margin-bottom: 5px;
+}
+
+.Input {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    background: white;
+    box-shadow: 2px 3px 3px #ccc;
+}
+
+.ErrorMessage {
+    color: red;
+    visibility: hidden;
+    margin: 0 0 0 15px;
+}
+
+.root:not(:isValid):isBlured .Input{
+    border: 1px solid red;
+}
+
+.root:not(:isValid):isBlured .ErrorMessage {
+    visibility: visible;
+}
+
+.TextArea {
+    height: 15vh;
+    padding: 7px;
+    resize: none;
+}
+
+@media (max-width: 818px) {
+    .root {
+        width: 100%;
+    }
+}

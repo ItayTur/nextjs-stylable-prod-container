@@ -1,0 +1,54 @@
+:import {
+    -st-from: "../Input/Input.st.css";
+    -st-default: Input;
+}
+
+:import {
+    -st-from: "../Button/Button.st.css";
+    -st-default: Button;
+}
+
+.ShadowCard {
+    padding: 1.5rem;
+    border: 1px solid #eaeaea;
+    box-shadow: 2px 3px 3px #ccc;
+    border-radius: 10px;
+}
+
+.root {
+    -st-mixin: ShadowCard;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto 50%;
+}
+
+.InputExt {
+    -st-extends: Input;
+}
+
+.ButtonExt {
+    -st-extends: Button;
+    margin-top: 15px;
+}
+
+.Inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.InputExt {
+    margin-bottom: 6px;
+}
+
+.AddChild {
+    margin-top: 15px;
+    background: #F27405;
+}
+
+.ChildForm {
+    -st-mixin: ShadowCard;
+    margin-bottom: 15px;
+}

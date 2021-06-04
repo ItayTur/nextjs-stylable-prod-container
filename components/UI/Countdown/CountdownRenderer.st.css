@@ -1,0 +1,23 @@
+.renderer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.renderer > * {
+    padding: 7.5px;
+}
+
+.TimeFormat {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.unit {
+    font-size: 24pt;
+}
+
+.text {
+    font-size: 8pt;
+}

@@ -1,0 +1,12 @@
+:import {
+    -st-from: "../../components/UI/Form/Form.st.css";
+    -st-default: Form;
+}
+
+.FormExt {
+    -st-extends: Form;
+}
+
+.FormExt::Inputs {
+    flex-direction: column;
+}

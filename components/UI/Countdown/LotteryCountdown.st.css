@@ -1,0 +1,11 @@
+.Countdown {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    color: #e00038;
+    display: flex;
+}
+
+.Countdown > span {
+    padding-left: 3px;
+}
