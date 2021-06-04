@@ -1,4 +1,18 @@
-## Getting Started
+# Getting Started
+
+## Start the app
+```
+cd my-app
+npm run dev
+```
+
+currently i get the following error:
+
+
+`CssSyntaxError: \my-app\components\UI\Button\Button.st.css:1:1: Unknown word`
+
+## docker guide
+
 
 In the terminal under the folder path run build image command
 
@@ -12,10 +26,7 @@ docker run  -p 3000:8080 test
 ```
 
 
-currently i get the following error:
 
-
-`CssSyntaxError: \my-app\components\UI\Button\Button.st.css:1:1: Unknown word`
 
 
 
