@@ -22,8 +22,10 @@ docker build . -t test:latest
 
 After the command is done run the image to create the container:
 ```
-docker run  -p 3000:8080 test
+docker run  -p 3000:3000 test
 ```
+
+open browser in localhost:3000
 
 
 
