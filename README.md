@@ -15,11 +15,7 @@ docker run  -p 3000:8080 test
 currently i get the following error:
 
 ```
-Error: Could not find a production build in the '/app/.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id
-    at Server.readBuildId (/app/node_modules/next/dist/next-server/server/next-server.js:151:355)
-    at new Server (/app/node_modules/next/dist/next-server/server/next-server.js:3:120)
-    at NextServer.createServer (/app/node_modules/next/dist/server/next.js:1:2935)
-    at async /app/node_modules/next/dist/server/next.js:1:3360
+CssSyntaxError: \my-app\components\UI\Button\Button.st.css:1:1: Unknown word
     ```
 
 
