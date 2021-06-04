@@ -14,8 +14,8 @@ docker run  -p 3000:8080 test
 
 currently i get the following error:
 
-```
-CssSyntaxError: \my-app\components\UI\Button\Button.st.css:1:1: Unknown word
-    ```
+
+`CssSyntaxError: \my-app\components\UI\Button\Button.st.css:1:1: Unknown word`
+
 
 
